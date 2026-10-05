@@ -1,0 +1,19 @@
+[versions]
+kotlin = "2.3.10"
+shadow = "9.2.0"
+
+mixin = "0.7.11-SNAPSHOT"
+discord-ipc = "LATEST"
+
+[libraries]
+mixin = { group = "org.spongepowered", name = "mixin", version.ref = "mixin" }
+discord-ipc = { group = "com.jagrosh", name = "DiscordIPC", version.ref = "discord-ipc" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization ={ id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+forge-gradle = { id = "net.minecraftforge.gradle.tweaker-client"}
+mixin-gradle = { id = "org.spongepowered.mixin"}
+shadow = { id = "com.gradleup.shadow", version.ref = "shadow"}
+
+[bundles]

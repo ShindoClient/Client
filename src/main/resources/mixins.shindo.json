@@ -1,0 +1,9 @@
+{
+  "package": "com.shindoclient.injection.mixins",
+  "refmap": "mixins.shindo.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "verbose": false,
+  "mixins": [
+    "client.MixinMinecraft"
+  ]
+}
