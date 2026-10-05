@@ -9,9 +9,4 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo
 @Mixin(GuiScreen::class)
 class MixinGuiScreen {
 
-
-    @Inject(method = ["initGui"], at = [At(value = "FIELD", target = "Lnet/minecraft/client/gui/GuiScreen;mc:Lnet/minecraft/client/Minecraft;", shift = At.Shift.AFTER)])
-    fun initGui(ci: CallbackInfo) {
-
-    }
 }
