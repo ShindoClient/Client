@@ -7,6 +7,8 @@
 > **Note**: Now Shindo Client is no longer a fork of Glide
 > But we still use some of the code from Glide
 
+> **Note**: Development is slow and will remain so for now, sorry.
+
 ### License 
 Shindo uses [GPL v3](https://github.com/ShindoClient/Client/blob/master/LICENSE)
 
